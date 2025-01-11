@@ -1,0 +1,9 @@
+Inicie um repositório Git na sua pasta         | git init
+--------------------------------------------------------------------------------------------------------------
+Adicione os arquivos ao repositório            | git add .
+--------------------------------------------------------------------------------------------------------------
+Faça o commit                                  | git commit -m "Mensagem do commit"
+--------------------------------------------------------------------------------------------------------------
+Conecte seu repositório no GitHub              | git remote add origin https://github.com/user/repositório
+--------------------------------------------------------------------------------------------------------------
+Envie os arquivos para o GitHub (push)         | git push -u origin master
