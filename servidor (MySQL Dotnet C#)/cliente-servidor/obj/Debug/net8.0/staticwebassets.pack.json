@@ -1,0 +1,49 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\backgroundTop.jpg",
+      "PackagePath": "staticwebassets\\backgroundTop.jpg"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\code.js",
+      "PackagePath": "staticwebassets\\code.js"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\icon-caixa.png",
+      "PackagePath": "staticwebassets\\icon-caixa.png"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\package-lock.json",
+      "PackagePath": "staticwebassets\\package-lock.json"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\package.json",
+      "PackagePath": "staticwebassets\\package.json"
+    },
+    {
+      "Id": "C:\\Users\\Leandro\\Documents\\estoque\\estoque\\wwwroot\\style.css",
+      "PackagePath": "staticwebassets\\style.css"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.tasks.props",
+      "PackagePath": "build\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.tasks.props",
+      "PackagePath": "buildMultiTargeting\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.tasks.props",
+      "PackagePath": "buildTransitive\\tasks.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.tasks.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

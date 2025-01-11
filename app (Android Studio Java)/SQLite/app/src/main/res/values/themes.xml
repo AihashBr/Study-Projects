@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.SQLite" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#526ff3</item>
+        <item name="colorPrimaryVariant">#526ff3</item>
+        <item name="colorAccent">#000000</item>
+        <item name="android:colorBackground">#FFFFFF</item>
+    </style>
+
+    <style name="Theme.SQLite" parent="Base.Theme.SQLite" />
+</resources>
