@@ -1,0 +1,11 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.RoomDB" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">#526ff3</item>
+        <item name="colorPrimaryVariant">#526ff3</item>
+        <item name="colorAccent">@color/black</item>
+        <item name="android:colorBackground">@color/white</item>
+    </style>
+
+    <style name="Theme.RoomDB" parent="Base.Theme.RoomDB" />
+</resources>
