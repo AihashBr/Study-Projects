@@ -46,7 +46,6 @@ public class DatabaseHelper {
         }).start();
     }
 
-    // Callback para dados carregados
     public interface DatabaseCallback {
         void onDataLoaded(List<DatabaseAppEntity> items);
     }

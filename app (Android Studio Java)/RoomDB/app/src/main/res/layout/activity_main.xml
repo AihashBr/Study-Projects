@@ -18,9 +18,10 @@
             android:layout_height="40dp"
             android:text="Adicionar"
             android:onClick="adicionarOpen"/>
-        <RelativeLayout
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerview"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:layout_marginTop="10dp"/>
     </LinearLayout>
     <FrameLayout
@@ -64,6 +65,57 @@
                     android:layout_marginTop="10dp"
                     android:text="Adicionar"
                     android:onClick="adicionar"/>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </FrameLayout>
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/telaEditar"
+        android:background="#AB000000"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="10dp"
+        android:layout_gravity="start">
+        <androidx.cardview.widget.CardView
+            android:background="@color/white"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:cardCornerRadius="10dp"
+            android:layout_gravity="center">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="vertical">
+                <EditText
+                    android:id="@+id/inputEditarNome"
+                    android:background="@drawable/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:hint="Nome"
+                    android:textSize="14dp"/>
+                <EditText
+                    android:id="@+id/inputEditarQuantidade"
+                    android:background="@drawable/input_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="5dp"
+                    android:hint="Quantidade"
+                    android:textSize="14dp"/>
+                <Button
+                    android:background="@drawable/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Adicionar"
+                    android:onClick="editar"/>
+                <Button
+                    android:background="@drawable/button_style"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Deletar"
+                    android:onClick="deletar"/>
             </LinearLayout>
         </androidx.cardview.widget.CardView>
     </FrameLayout>

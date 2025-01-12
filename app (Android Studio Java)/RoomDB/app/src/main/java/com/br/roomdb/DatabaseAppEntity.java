@@ -15,7 +15,6 @@ import androidx.room.RoomDatabase;
 
 import java.util.List;
 
-// 1. Entidade: Representa a tabela do banco de dados
 @Entity(tableName = "databaseAPP")
 public class DatabaseAppEntity {
     @PrimaryKey(autoGenerate = true)
@@ -33,7 +32,6 @@ public class DatabaseAppEntity {
     }
 }
 
-// 2. DAO: Define as operações no banco de dados
 @Dao
 interface DatabaseAppDao {
     @Insert
@@ -49,7 +47,6 @@ interface DatabaseAppDao {
     void update(int id, String nome, int quantidade);
 }
 
-// 3. Banco de Dados: Configuração do Room
 @Database(entities = {DatabaseAppEntity.class}, version = 1)
 abstract class AppDatabase extends RoomDatabase {
     private static volatile AppDatabase INSTANCE;
