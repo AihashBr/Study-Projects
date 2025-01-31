@@ -1,0 +1,10 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.CâmeraApp" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="colorPrimary">#314DE7</item> -->
+    </style>
+
+    <style name="Theme.CâmeraApp" parent="Base.Theme.CâmeraApp" />
+</resources>
