@@ -44,21 +44,20 @@
         </LinearLayout>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabCamera"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_camera"
             android:layout_gravity="bottom|end"
             android:layout_marginBottom="87dp"
-            android:layout_marginRight="16dp"
-            android:onClick="btnCamera"/>
+            android:layout_marginRight="16dp"/>
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_selecionado"
             android:layout_gravity="bottom|end"
-            android:layout_margin="16dp"
-            android:onClick="btnSalvar"/>
+            android:layout_margin="16dp"/>
 
     </FrameLayout>
 

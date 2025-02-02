@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/carFoto"
     android:layout_width="150dp"
     android:layout_height="200dp"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -16,13 +17,12 @@
         android:layout_height="match_parent">
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
-            android:id="@+id/btnDeletar"
+            android:id="@+id/fabDeletar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:src="@drawable/ic_lixeira"
             android:layout_gravity="bottom|end"
-            android:layout_margin="5dp"
-            android:onClick="btnDeletar"/>
+            android:layout_margin="5dp"/>
 
     </FrameLayout>
 
