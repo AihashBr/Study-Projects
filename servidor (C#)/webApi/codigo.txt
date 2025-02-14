@@ -1,0 +1,43 @@
+
+# Criando os projetos
+dotnet new webapi -n Backend.Api -o src/Backend/Api
+dotnet new classlib -n Backend.Application -o src/Backend/Application
+dotnet new classlib -n Backend.Domain -o src/Backend/Domain
+dotnet new classlib -n Backend.Infrastructure -o src/Backend/Infrastructure
+dotnet new classlib -n Shared -o src/Shared
+
+# Criar a Infrastructure
+dotnet add src/Backend/Infrastructure/Backend.Infrastructure.csproj package Microsoft.EntityFrameworkCore
+dotnet add src/Backend/Infrastructure/Backend.Infrastructure.csproj package Pomelo.EntityFrameworkCore.MySql
+
+# Criando a solução principal
+dotnet new sln -n Backend
+
+# Criando os projetos dentro de src/Backend
+dotnet new webapi -n Backend.Api -o src/Backend/Api
+dotnet new classlib -n Backend.Application -o src/Backend/Application
+dotnet new classlib -n Backend.Domain -o src/Backend/Domain
+dotnet new classlib -n Backend.Infrastructure -o src/Backend/Infrastructure
+
+# Criando o projeto Shared
+dotnet new classlib -n Shared -o src/Shared
+
+# Adicionando os projetos à solução
+dotnet sln Backend.sln add src/Backend/Api/Backend.Api.csproj
+dotnet sln Backend.sln add src/Backend/Application/Backend.Application.csproj
+dotnet sln Backend.sln add src/Backend/Domain/Backend.Domain.csproj
+dotnet sln Backend.sln add src/Backend/Infrastructure/Backend.Infrastructure.csproj
+dotnet sln Backend.sln add src/Shared/Shared.csproj
+
+# Adicionando referências entre os projetos
+dotnet add src/Backend/Api/Backend.Api.csproj reference src/Backend/Application/Backend.Application.csproj
+dotnet add src/Backend/Api/Backend.Api.csproj reference src/Backend/Domain/Backend.Domain.csproj
+dotnet add src/Backend/Api/Backend.Api.csproj reference src/Backend/Infrastructure/Backend.Infrastructure.csproj
+
+dotnet add src/Backend/Application/Backend.Application.csproj reference src/Backend/Domain/Backend.Domain.csproj
+
+dotnet add src/Backend/Infrastructure/Backend.Infrastructure.csproj reference src/Backend/Domain/Backend.Domain.csproj
+
+# Restaurando pacotes e compilando
+dotnet restore
+dotnet build

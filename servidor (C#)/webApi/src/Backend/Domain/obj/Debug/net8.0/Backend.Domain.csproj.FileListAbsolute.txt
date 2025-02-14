@@ -1,0 +1,11 @@
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\bin\Debug\net8.0\Backend.Domain.deps.json
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\bin\Debug\net8.0\Backend.Domain.dll
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\bin\Debug\net8.0\Backend.Domain.pdb
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.AssemblyInfoInputs.cache
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.AssemblyInfo.cs
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.dll
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\refint\Backend.Domain.dll
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\Backend.Domain.pdb
+C:\Users\Leandro\Documents\webApi\src\Backend\Domain\obj\Debug\net8.0\ref\Backend.Domain.dll
