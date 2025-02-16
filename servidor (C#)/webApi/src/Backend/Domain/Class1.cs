@@ -1,4 +1,4 @@
-﻿namespace Backend.Domain;
+﻿namespace Domain;
 
 public class Class1
 {

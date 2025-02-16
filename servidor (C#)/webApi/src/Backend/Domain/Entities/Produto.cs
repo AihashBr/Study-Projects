@@ -1,9 +1,9 @@
-namespace Backend.Domain.Entities
+namespace BackEnd.Domain.Entities
 {
-    public class Produto
+    public class Produto : Entity
     {
-        public int Id { get; set; }
+        public string Codigo { get; set; }
         public string Nome { get; set; }
-        public decimal Preco { get; set; }
+        public int Quantidade { get; set; }
     }
 }

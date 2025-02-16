@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{600E711B-1A73-768F-93F8-1A26C4691C8C}|src\\BackEnd\\Api\\Api.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E711B-1A73-768F-93F8-1A26C4691C8C}|src\\BackEnd\\Api\\Api.csproj|solutionrelative:src\\backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{600E711B-1A73-768F-93F8-1A26C4691C8C}|src\\BackEnd\\Api\\Api.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{600E711B-1A73-768F-93F8-1A26C4691C8C}|src\\BackEnd\\Api\\Api.csproj|solutionrelative:src\\backend\\api\\controllers\\produtocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|solutionrelative:src\\backend\\application\\services\\produtoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\infrastructure\\data\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\backend\\infrastructure\\data\\repository\\produtorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\infrastructure\\data\\repository\\interface\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\backend\\infrastructure\\data\\repository\\interface\\iprodutorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|c:\\users\\leandro\\documents\\nova pasta\\webapi\\src\\backend\\application\\services\\interface\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|solutionrelative:src\\backend\\application\\services\\interface\\iprodutoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Api\\Program.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Api\\Program.cs",
+              "RelativeToolTip": "src\\BackEnd\\Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:16:24.223Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoController.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Api\\Controllers\\ProdutoController.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Api\\Controllers\\ProdutoController.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Api\\Controllers\\ProdutoController.cs",
+              "RelativeToolTip": "src\\BackEnd\\Api\\Controllers\\ProdutoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:15:08.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Application\\Services\\ProdutoService.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Application\\Services\\ProdutoService.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Application\\Services\\ProdutoService.cs",
+              "RelativeToolTip": "src\\BackEnd\\Application\\Services\\ProdutoService.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowAAAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:07:18.918Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Infrastructure\\Data\\Repository\\ProdutoRepository.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Infrastructure\\Data\\Repository\\ProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Infrastructure\\Data\\Repository\\ProdutoRepository.cs",
+              "RelativeToolTip": "src\\BackEnd\\Infrastructure\\Data\\Repository\\ProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:05:57.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IProdutoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Infrastructure\\Data\\Repository\\Interface\\IProdutoRepository.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Infrastructure\\Data\\Repository\\Interface\\IProdutoRepository.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Infrastructure\\Data\\Repository\\Interface\\IProdutoRepository.cs",
+              "RelativeToolTip": "src\\BackEnd\\Infrastructure\\Data\\Repository\\Interface\\IProdutoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T23:03:51.667Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IProdutoService.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Application\\Services\\Interface\\IProdutoService.cs",
+              "RelativeDocumentMoniker": "src\\BackEnd\\Application\\Services\\Interface\\IProdutoService.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Application\\Services\\Interface\\IProdutoService.cs",
+              "RelativeToolTip": "src\\BackEnd\\Application\\Services\\Interface\\IProdutoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-16T22:59:11.558Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

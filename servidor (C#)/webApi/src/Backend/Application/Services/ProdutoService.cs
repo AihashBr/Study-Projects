@@ -1,11 +1,10 @@
-using Backend.Domain.Entities;
-using Backend.Domain.Interfaces;
-using System.Collections.Generic;
-using System.Threading.Tasks;
+using BackEnd.Application.DTOs;
+using BackEnd.Infrastructure.Data.Repositories.Interface;
+using ProdutoEntity =  BackEnd.Domain.Entities.Produto;
 
-namespace Backend.Application.Services
+namespace BackEnd.Application.Services.Produto
 {
-    public class ProdutoService
+    public class ProdutoService : IProdutoService
     {
         private readonly IProdutoRepository _produtoRepository;
 
@@ -14,29 +13,30 @@ namespace Backend.Application.Services
             _produtoRepository = produtoRepository;
         }
 
-        public async Task<IEnumerable<Produto>> GetAllProdutosAsync()
+        public string CreateProduto(ProdutoDTO produtoDTO)
         {
-            return await _produtoRepository.GetAllAsync();
+            var produto = new ProdutoEntity
+            {
+                Nome = produtoDTO.Nome,
+                Codigo = produtoDTO.Codigo,
+                Quantidade = produtoDTO.Quantidade
+            };
+
+            _produtoRepository.AddProdutoAsync(produto).Wait();
+
+            return $"Produto {produto.Nome} criado com sucesso!";
         }
 
-        public async Task<Produto> GetProdutoByIdAsync(int id)
+        public string GetProdutoById(int id)
         {
-            return await _produtoRepository.GetByIdAsync(id);
-        }
+            var produto = _produtoRepository.GetProdutoByIdAsync(id).Result;
 
-        public async Task AddProdutoAsync(Produto produto)
-        {
-            await _produtoRepository.AddAsync(produto);
-        }
+            if (produto != null)
+            {
+                return $"Produto com ID {id} encontrado: {produto.Nome}, Código: {produto.Codigo}, Quantidade: {produto.Quantidade}";
+            }
 
-        public async Task UpdateProdutoAsync(Produto produto)
-        {
-            await _produtoRepository.UpdateAsync(produto);
-        }
-
-        public async Task DeleteProdutoAsync(int id)
-        {
-            await _produtoRepository.DeleteAsync(id);
+            return $"Produto com ID {id} não encontrado.";
         }
     }
 }

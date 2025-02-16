@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "9FUdxXfZ6Uc=",
+  "dgSpecHash": "yRAwwWcfJCE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leandro\\Documents\\webApi\\src\\Backend\\Infrastructure\\Backend.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Infrastructure\\Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.entityframeworkcore\\9.0.2\\microsoft.entityframeworkcore.9.0.2.nupkg.sha512",
     "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\9.0.2\\microsoft.entityframeworkcore.abstractions.9.0.2.nupkg.sha512",

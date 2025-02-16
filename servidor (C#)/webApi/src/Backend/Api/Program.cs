@@ -1,27 +1,31 @@
-using Backend.Application.Services;
-using Backend.Domain.Interfaces;
-using Backend.Infrastructure.Data;
-using Backend.Infrastructure.Repositories;
+using Infrastructure.Data;
+using BackEnd.Application.Services;
+using BackEnd.Application.Services.Produto;
 using Microsoft.EntityFrameworkCore;
+using BackEnd.Infrastructure.Data.Repositories.Interface;
+using BackEnd.Infrastructure.Data.Repositories;
 
 var builder = WebApplication.CreateBuilder(args);
 
-// Configurar o DbContext
-builder.Services.AddDbContext<ApplicationDbContext>(options =>
-    options.UseMySql(builder.Configuration.GetConnectionString("DefaultConnection"), ServerVersion.AutoDetect(builder.Configuration.GetConnectionString("DefaultConnection"))));
+// Adiciona o contexto do banco de dados
+var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString))
+);
 
-// Registrar os repositórios e serviços
-builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
-builder.Services.AddScoped<ProdutoService>();
-
-// Adicionando controllers e Swagger
 builder.Services.AddControllers();
+
+// Configuração do Swagger
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+builder.Services.AddScoped<IExemploService, ExemploService>();
+builder.Services.AddScoped<IProdutoService, ProdutoService>();
+builder.Services.AddScoped<IProdutoRepository, ProdutoRepository>();
+
 var app = builder.Build();
 
-// Configuração do Swagger
+// Configuração do pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -29,6 +33,7 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+
 app.MapControllers();
 
 app.Run();

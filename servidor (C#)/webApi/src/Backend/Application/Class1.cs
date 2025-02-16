@@ -1,4 +1,4 @@
-﻿namespace Backend.Application;
+﻿namespace Application;
 
 public class Class1
 {

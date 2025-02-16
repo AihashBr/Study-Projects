@@ -1,59 +1,32 @@
-using Backend.Application.Services;
-using Backend.Domain.Entities;
+using BackEnd.Application.DTOs;
+using BackEnd.Application.Services.Produto;
 using Microsoft.AspNetCore.Mvc;
 
-namespace Backend.Api.Controllers
+namespace WebApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
     public class ProdutoController : ControllerBase
     {
-        private readonly ProdutoService _produtoService;
+        private readonly IProdutoService _produtoService;
 
-        public ProdutoController(ProdutoService produtoService)
+        public ProdutoController(IProdutoService produtoService)
         {
             _produtoService = produtoService;
         }
 
-        [HttpGet]
-        public async Task<IActionResult> Get()
-        {
-            var produtos = await _produtoService.GetAllProdutosAsync();
-            return Ok(produtos);
-        }
-
-        [HttpGet("{id}")]
-        public async Task<IActionResult> Get(int id)
-        {
-            var produto = await _produtoService.GetProdutoByIdAsync(id);
-            if (produto == null)
-                return NotFound();
-
-            return Ok(produto);
-        }
-
+        // Endpoint para criar um produto
         [HttpPost]
-        public async Task<IActionResult> Post([FromBody] Produto produto)
+        public IActionResult CreateProduto([FromBody] ProdutoDTO produtoDTO)
         {
-            await _produtoService.AddProdutoAsync(produto);
-            return CreatedAtAction(nameof(Get), new { id = produto.Id }, produto);
+            return Ok(_produtoService.CreateProduto(produtoDTO));
         }
 
-        [HttpPut("{id}")]
-        public async Task<IActionResult> Put(int id, [FromBody] Produto produto)
+        // Endpoint para buscar produto por ID
+        [HttpGet("{id}")]
+        public IActionResult GetProdutoById(int id)
         {
-            if (id != produto.Id)
-                return BadRequest();
-
-            await _produtoService.UpdateProdutoAsync(produto);
-            return NoContent();
-        }
-
-        [HttpDelete("{id}")]
-        public async Task<IActionResult> Delete(int id)
-        {
-            await _produtoService.DeleteProdutoAsync(id);
-            return NoContent();
+            return Ok(_produtoService.GetProdutoById(id));
         }
     }
 }
