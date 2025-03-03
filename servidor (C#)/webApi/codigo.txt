@@ -1,3 +1,6 @@
+dotnet ef migrations add CreateProductsTable --project ../Infrastructure --startup-project ../Api
+dotnet ef database update --project ../Infrastructure --startup-project ../Api
+
 
 # Criando os projetos
 dotnet new webapi -n Backend.Api -o src/Backend/Api

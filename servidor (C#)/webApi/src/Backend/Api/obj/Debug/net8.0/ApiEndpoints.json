@@ -1,103 +1,57 @@
 [
   {
-    "ContainingType": "WebApi.Controllers.ExemploController",
-    "Method": "Get1",
-    "RelativePath": "api/Exemplo/get1",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ExemploController",
-    "Method": "Get2",
-    "RelativePath": "api/Exemplo/get2",
-    "HttpMethod": "GET",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ExemploController",
-    "Method": "Post1",
-    "RelativePath": "api/Exemplo/post1",
+    "ContainingType": "Api.Controllers.ProductsController",
+    "Method": "CreateProduct",
+    "RelativePath": "api/Products",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "mensagem",
-        "Type": "System.String",
+        "Name": "productDTO",
+        "Type": "Application.DTOs.Product.ProductDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.ExemploController",
-    "Method": "Post2",
-    "RelativePath": "api/Exemplo/post2",
-    "HttpMethod": "POST",
+    "ContainingType": "Api.Controllers.ProductsController",
+    "Method": "UpdateProduct",
+    "RelativePath": "api/Products",
+    "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
     "Parameters": [
       {
-        "Name": "mensagem",
-        "Type": "System.String",
+        "Name": "productDTO",
+        "Type": "Application.DTOs.Product.ProductDTO",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.ExemploServiceController",
-    "Method": "GetExemplo",
-    "RelativePath": "api/ExemploService",
+    "ContainingType": "Api.Controllers.ProductsController",
+    "Method": "GetProductById",
+    "RelativePath": "api/Products/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
-    "Parameters": [],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ExemploServiceController",
-    "Method": "PostExemplo",
-    "RelativePath": "api/ExemploService",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
     "Parameters": [
       {
-        "Name": "mensagem",
-        "Type": "System.String",
+        "Name": "id",
+        "Type": "System.Int32",
         "IsRequired": true
       }
     ],
     "ReturnTypes": []
   },
   {
-    "ContainingType": "WebApi.Controllers.ProdutoController",
-    "Method": "CreateProduto",
-    "RelativePath": "api/Produto",
-    "HttpMethod": "POST",
-    "IsController": true,
-    "Order": 0,
-    "Parameters": [
-      {
-        "Name": "produtoDTO",
-        "Type": "BackEnd.Application.DTOs.ProdutoDTO",
-        "IsRequired": true
-      }
-    ],
-    "ReturnTypes": []
-  },
-  {
-    "ContainingType": "WebApi.Controllers.ProdutoController",
-    "Method": "GetProdutoById",
-    "RelativePath": "api/Produto/{id}",
-    "HttpMethod": "GET",
+    "ContainingType": "Api.Controllers.ProductsController",
+    "Method": "DeleteProduct",
+    "RelativePath": "api/Products/{id}",
+    "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
     "Parameters": [

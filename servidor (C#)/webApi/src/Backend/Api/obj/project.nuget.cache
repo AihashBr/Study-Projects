@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S+zxX2TeL7M=",
+  "dgSpecHash": "B1PLYXuSTxE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leandro\\Documents\\Nova pasta\\WebApi\\src\\BackEnd\\Api\\Api.csproj",
+  "projectFilePath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\src\\BackEnd\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leandro\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Leandro\\.nuget\\packages\\microsoft.aspnetcore.openapi\\8.0.11\\microsoft.aspnetcore.openapi.8.0.11.nupkg.sha512",
