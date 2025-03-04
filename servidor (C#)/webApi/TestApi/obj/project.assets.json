@@ -2021,9 +2021,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\Tests.csproj",
+      "projectUniqueName": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\TestApi\\Tests.csproj",
       "projectName": "Tests",
-      "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\Tests.csproj",
+      "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\TestApi\\Tests.csproj",
       "packagesPath": "C:\\Users\\Leandro\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\obj\\",
       "projectStyle": "PackageReference",
@@ -2046,11 +2046,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\BackEnd\\Application\\Application.csproj": {
-              "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\BackEnd\\Application\\Application.csproj"
+            "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\src\\BackEnd\\Application\\Application.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\src\\BackEnd\\Application\\Application.csproj"
             },
-            "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\BackEnd\\Infrastructure\\Infrastructure.csproj"
+            "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\src\\BackEnd\\Infrastructure\\Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\src\\BackEnd\\Infrastructure\\Infrastructure.csproj"
             }
           }
         }

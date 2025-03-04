@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ts5qgXirM/Q=",
+  "dgSpecHash": "Vi8fL2Gtvec=",
   "success": true,
-  "projectFilePath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\Tests.csproj",
+  "projectFilePath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\WebApi\\TestApi\\Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Leandro\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Leandro\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

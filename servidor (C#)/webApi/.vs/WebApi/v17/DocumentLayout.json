@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95D11324-481D-4A01-8776-EC6DD44056C4}|TestApi\\Tests.csproj|c:\\users\\leandro\\documents\\jornadadev-projetos-de-estudos\\servidor (c#)\\webapi\\testapi\\productstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95D11324-481D-4A01-8776-EC6DD44056C4}|TestApi\\Tests.csproj|solutionrelative:testapi\\productstests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95D11324-481D-4A01-8776-EC6DD44056C4}|TestApi\\Tests.csproj|c:\\users\\leandro\\documents\\jornadadev-projetos-de-estudos\\servidor (c#)\\webapi\\testapi\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95D11324-481D-4A01-8776-EC6DD44056C4}|TestApi\\Tests.csproj|solutionrelative:testapi\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|c:\\users\\leandro\\documents\\jornadadev-projetos-de-estudos\\servidor (c#)\\webapi\\src\\backend\\application\\dtos\\product\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|solutionrelative:src\\backend\\application\\dtos\\product\\productcreatedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|c:\\users\\leandro\\documents\\jornadadev-projetos-de-estudos\\servidor (c#)\\webapi\\src\\backend\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DBD68D79-E371-4A09-8712-F5F96837030B}|src\\BackEnd\\Application\\Application.csproj|solutionrelative:src\\backend\\application\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|c:\\users\\leandro\\documents\\jornadadev-projetos-de-estudos\\servidor (c#)\\webapi\\src\\backend\\infrastructure\\data\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6657CBA-A2C2-4186-BCC9-84DD3B0BE3C4}|src\\BackEnd\\Infrastructure\\Infrastructure.csproj|solutionrelative:src\\backend\\infrastructure\\data\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +22,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ProductCreateDTO.cs",
-              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Application\\DTOs\\Product\\ProductCreateDTO.cs",
-              "RelativeDocumentMoniker": "src\\Backend\\Application\\DTOs\\Product\\ProductCreateDTO.cs",
-              "ToolTip": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Application\\DTOs\\Product\\ProductCreateDTO.cs",
-              "RelativeToolTip": "src\\Backend\\Application\\DTOs\\Product\\ProductCreateDTO.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Infrastructure\\Data\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\Infrastructure\\Data\\Repository\\ProductRepository.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Infrastructure\\Data\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "src\\Backend\\Infrastructure\\Data\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA1wAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:55:57.886Z",
+              "WhenOpened": "2025-03-04T23:03:21.572Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Application\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "src\\Backend\\Application\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\src\\Backend\\Application\\Services\\ProductService.cs",
+              "RelativeToolTip": "src\\Backend\\Application\\Services\\ProductService.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAIwE0AAABmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-04T23:03:19.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductsTests.cs",
-              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\ProductsTests.cs",
-              "RelativeDocumentMoniker": "TestApi\\ProductsTests.cs",
-              "ToolTip": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\ProductsTests.cs",
-              "RelativeToolTip": "TestApi\\ProductsTests.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAiwCcAAAARAAAAAAAAAA==",
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "TestApi\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Users\\Leandro\\Documents\\JornadaDev-Projetos-de-Estudos\\servidor (C#)\\webApi\\TestApi\\ProductServiceTests.cs",
+              "RelativeToolTip": "TestApi\\ProductServiceTests.cs",
+              "ViewState": "AgIAAGsAAAAAAAAAAAA7wJ4AAAA8AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-04T00:35:45.73Z",
+              "WhenOpened": "2025-03-04T22:08:44.245Z",
               "EditorCaption": ""
             }
           ]
