@@ -1,63 +1,80 @@
 ﻿using Application.DTOs.Product;
+using Application.DTOs.Return;
 using Application.Interface;
+using AutoMapper;
 using Domain.Model;
+using Infrastructure.Data;
 using Infrastructure.Repository.Interface;
+using Microsoft.EntityFrameworkCore;
 
 namespace Application.Services;
 public class ProductService : IProductService
 {
     private readonly IProductRepository _productRepository;
+    private readonly IMapper _mapper;
+    private readonly ApplicationDbContext _context;
 
-    public ProductService(IProductRepository productRepository)
+    public ProductService(IProductRepository productRepository, IMapper mapper, ApplicationDbContext context)
     {
         _productRepository = productRepository;
+        _mapper = mapper;
+        _context = context;
     }
 
-    public string CreateProduct(ProductDTO productDTO)
+    public ReturnStatus CreateProduct(ProductCreateDTO newProduct)
     {
-        var product = new Product
-        {
-            Name = productDTO.Name,
-            Amount = productDTO.Amount,
-            Price = productDTO.Price
-        };
+
+        var product = _mapper.Map<Product>(newProduct);
 
         _productRepository.AddProductAsync(product).Wait();
 
-        return $"Produto criado com sucesso!";
+        return new ReturnStatus { Status = true, Message = $"Produto criado com sucesso!"};
     }
 
-    public string GetProductById(int id)
+    public ProductViewDTO GetProductById(int id)
     {
         var product = _productRepository.GetProductByIdAsync(id).Result;
 
+        var productViewDTO = _mapper.Map<ProductViewDTO>(product);
+
         if (product != null)
         {
-            return $"Product com ID {id} encontrado: {product.Name}, Preço: {product.Amount}, Quantidade: {product.Price}";
+            productViewDTO.Status = true;
+            productViewDTO.Message = $"Produto com ID {id} encontrado com sucesso!";
+
+            return productViewDTO;
         }
 
-        return $"Product com ID {id} não encontrado.";
+        return new ProductViewDTO { Status = false, Message = $"Produto com ID {id} não encontrado!" };
     }
 
-    public string UpdateProduct(ProductDTO productDTO)
+    public ReturnStatus UpdateProduct(ProductCreateDTO newProduct)
     {
-        var product = new Product
+        var productGetById = _productRepository.GetProductByIdAsync(newProduct.Id).Result;
+        if (productGetById == null)
         {
-            Id = productDTO.Id,
-            Name = productDTO.Name,
-            Amount = productDTO.Amount,
-            Price = productDTO.Price
-        };
+            return new ReturnStatus { Status = false, Message = $"Produto com ID {newProduct.Id} não encontrado!" };
+        }
+
+        var product = _mapper.Map<Product>(newProduct);
+
+        _context.Entry(productGetById).State = EntityState.Detached;
 
         _productRepository.UpdateProductAsync(product).Wait();
 
-        return $"Produto com ID {productDTO.Id} atualizado com sucesso!";
+        return new ReturnStatus { Status = true, Message = $"Produto atualizado com sucesso!" };
     }
 
-    public string DeleteProduct(int id)
+    public ReturnStatus DeleteProduct(int id)
     {
+        var productGetById = _productRepository.GetProductByIdAsync(id).Result;
+        if (productGetById == null)
+        {
+            return new ReturnStatus { Status = false, Message = $"Produto com ID {id} não encontrado!" };
+        }
+
         _productRepository.DeleteProductAsync(id).Wait();
 
-        return $"Produto com ID {id} deletado com sucesso!";
+        return new ReturnStatus { Status = true, Message = $"Produto com ID {id} deletado com sucesso!" };
     }
 }

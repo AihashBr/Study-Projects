@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
 namespace Application.DTOs.Product;
-public class ProductDTO
+public class ProductCreateDTO
 {
     public int Id { get; set; }
     [Required(ErrorMessage = "Nome é obrigatório")]
@@ -9,8 +9,8 @@ public class ProductDTO
     public required string Name { get; set; }
 
     [Required(ErrorMessage = "Quantidade é obrigatório")]
-    public decimal Amount { get; set; }
+    public decimal? Amount { get; set; }
 
     [Required(ErrorMessage = "Preço é obrigatório")]
-    public decimal Price { get; set; }
+    public decimal? Price { get; set; }
 }

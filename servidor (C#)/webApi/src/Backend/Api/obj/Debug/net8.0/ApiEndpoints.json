@@ -9,7 +9,7 @@
     "Parameters": [
       {
         "Name": "productDTO",
-        "Type": "Application.DTOs.Product.ProductDTO",
+        "Type": "Application.DTOs.Product.ProductCreateDTO",
         "IsRequired": true
       }
     ],
@@ -25,7 +25,7 @@
     "Parameters": [
       {
         "Name": "productDTO",
-        "Type": "Application.DTOs.Product.ProductDTO",
+        "Type": "Application.DTOs.Product.ProductCreateDTO",
         "IsRequired": true
       }
     ],

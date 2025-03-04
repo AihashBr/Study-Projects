@@ -21,13 +21,13 @@ public class ProductsController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult CreateProduct([FromBody] ProductDTO productDTO)
+    public IActionResult CreateProduct([FromBody] ProductCreateDTO productDTO)
     {
         return Ok(_productService.CreateProduct(productDTO));
     }
 
     [HttpPut]
-    public IActionResult UpdateProduct([FromBody] ProductDTO productDTO)
+    public IActionResult UpdateProduct([FromBody] ProductCreateDTO productDTO)
     {
         return Ok(_productService.UpdateProduct(productDTO));
     }

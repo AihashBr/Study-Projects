@@ -1,10 +1,11 @@
 ﻿using Application.DTOs.Product;
+using Application.DTOs.Return;
 
 namespace Application.Interface;
 public interface IProductService
 {
-    string CreateProduct(ProductDTO productDTO);
-    string GetProductById(int id);
-    string UpdateProduct(ProductDTO productDTO);
-    string DeleteProduct(int id);
+    ReturnStatus CreateProduct(ProductCreateDTO productDTO);
+    ProductViewDTO GetProductById(int id);
+    ReturnStatus UpdateProduct(ProductCreateDTO productDTO);
+    ReturnStatus DeleteProduct(int id);
 }
