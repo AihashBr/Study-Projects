@@ -291,3 +291,4 @@ C:\Users\Leandro\Documents\JornadaDev-Projetos-de-Estudos\servidor (C#)\webApi\s
 C:\Users\Leandro\Documents\JornadaDev-Projetos-de-Estudos\servidor (C#)\WebApi\src\BackEnd\Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
 C:\Users\Leandro\Documents\JornadaDev-Projetos-de-Estudos\servidor (C#)\WebApi\src\BackEnd\Api\bin\Debug\net8.0\AutoMapper.dll
 C:\Users\Leandro\Documents\JornadaDev-Projetos-de-Estudos\servidor (C#)\WebApi\src\BackEnd\Api\bin\Debug\net8.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\Leandro\Documents\JornadaDev-Projetos-de-Estudos\servidor (C#)\WebApi\src\BackEnd\Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.InMemory.dll
