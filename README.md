@@ -1,4 +1,4 @@
-## 📕 Study Projects
+## 📖 Study Projects
 
 This repository gathers my study projects in programming, where I build simple practice applications focused only on the essentials of what I am studying.
 The main goal is to experiment with different technologies, strengthen my foundations, and continuously improve my skills in software development.
