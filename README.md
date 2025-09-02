@@ -6,7 +6,7 @@ The main goal is to experiment with different technologies, strengthen my founda
 Each project represents a step in my learning journey — from small exercises and basic implementations to slightly more complete applications that demonstrate what I have learned.
 Larger and more realistic projects will be published in separate repositories. 
 
-### 🚀 Technologies I am currently studying
+## 🚀 Technologies I am currently studying
 - **Java for Android**  
 - **Angular**  
 - **TypeScript**  
